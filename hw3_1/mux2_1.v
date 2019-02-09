@@ -4,8 +4,8 @@
 
     2-1 mux template
 */
-module mux2_1(InA, InB, InC, InD, S, Out);
-    input   InA, InB, InC, InD;
+module mux2_1(InA, InB, S, Out);
+    input   InA, InB;
     input   S;
     output  Out;
 
