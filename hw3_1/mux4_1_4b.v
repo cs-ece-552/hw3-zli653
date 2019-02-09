@@ -13,6 +13,6 @@ module mux4_1_4b(InA, InB, InC, InD, S, Out);
     input [1:0]     S;
     output [N-1:0]  Out;
 
-	// YOUR CODE HERE
+    // YOUR CODE HERE
 
 endmodule

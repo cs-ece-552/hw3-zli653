@@ -6,10 +6,10 @@
 */
 module fullAdder_1b(A, B, C_in, S, C_out);
     input  A, B;
-	input  C_in;
+    input  C_in;
     output S;
     output C_out;
 
-	// YOUR CODE HERE
+    // YOUR CODE HERE
 
 endmodule

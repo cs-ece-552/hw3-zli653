@@ -13,6 +13,6 @@ module rca_16b(A, B, S, C_out);
     output [N-1:0] S;
     output         C_out;
 
-	// YOUR CODE HERE
+    // YOUR CODE HERE
 
 endmodule

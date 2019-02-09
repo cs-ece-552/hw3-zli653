@@ -10,10 +10,10 @@ module rca_4b(A, B, C_in, S, C_out);
     parameter   N = 4;
 
     input [N-1: 0] A, B;
-	input          C_in;
+    input          C_in;
     output [N-1:0] S;
     output         C_out;
 
-	// YOUR CODE HERE
+    // YOUR CODE HERE
 
 endmodule
