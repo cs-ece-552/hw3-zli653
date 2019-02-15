@@ -1,0 +1,508 @@
+# Loading project hw3-1
+# reading /afs/cs.wisc.edu/s/mentor-2018/amd64_rhel6/modelsim_dlx/linuxpe/../modelsim.ini
+# Loading project hw3_2
+# Compile of clkrst.v was successful.
+# Compile of fullAdder_1b.v failed with 1 errors.
+# Compile of fullAdder_1b_bench.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nand3.v was successful.
+# Compile of nor2.v was successful.
+# Compile of nor3.v was successful.
+# Compile of not1.v was successful.
+# Compile of rca_4b.v was successful.
+# Compile of rca_16b.v was successful.
+# Compile of rca_16b_bench.v was successful.
+# Compile of xor2.v was successful.
+# Compile of xor3.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of clkrst.v was successful.
+# Compile of fullAdder_1b.v was successful.
+# Compile of fullAdder_1b_bench.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nand3.v was successful.
+# Compile of nor2.v was successful.
+# Compile of nor3.v was successful.
+# Compile of not1.v was successful.
+# Compile of rca_4b.v was successful.
+# Compile of rca_16b.v was successful.
+# Compile of rca_16b_bench.v was successful.
+# Compile of xor2.v was successful.
+# Compile of xor3.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.fullAdder_1b_bench
+# vsim work.fullAdder_1b_bench 
+# Start time: 13:34:59 on Feb 15,2019
+# //  ModelSim DE 10.7c Aug 17 2018Linux 4.15.0-45-generic
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.fullAdder_1b_bench
+# Loading work.clkrst
+# Loading work.fullAdder_1b
+# Loading work.xor2
+# Loading work.nand2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'A'. The port definition is at: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fullAdder_1b_bench/DUT File: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'B'. The port definition is at: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /fullAdder_1b_bench/DUT File: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v Line: 14
+run -all
+# A: 0, B: 1, Sum: 0
+# A: 3, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 0, Sum: 0
+# A: 2, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 3, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 2, Sum: 1
+# A: 0, B: 1, Sum: 1
+# A: 1, B: 1, Sum: 1
+# A: 3, B: 2, Sum: 1
+# A: 0, B: 2, Sum: 1
+# ERRORCHECK CO error
+# A: 2, B: 3, Sum: 0
+# A: 3, B: 3, Sum: 1
+# A: 2, B: 2, Sum: 1
+# A: 3, B: 3, Sum: 0
+# A: 2, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 2, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 0, B: 1, Sum: 0
+# A: 2, B: 2, Sum: 0
+# A: 0, B: 2, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 1, Sum: 1
+# A: 3, B: 2, Sum: 1
+# A: 1, B: 1, Sum: 1
+# A: 2, B: 0, Sum: 1
+# ERRORCHECK CO error
+# A: 3, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 1, Sum: 0
+# A: 3, B: 1, Sum: 0
+# ERRORCHECK CO error
+# A: 0, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 1, Sum: 0
+# ERRORCHECK CO error
+# A: 2, B: 1, Sum: 0
+# ERRORCHECK CO error
+# ** Note: $finish    : /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v(20)
+#    Time: 3200 ns  Iteration: 0  Instance: /fullAdder_1b_bench
+# 1
+# Break in Module fullAdder_1b_bench at /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v line 20
+# Compile of clkrst.v was successful.
+# Compile of fullAdder_1b.v was successful.
+# Compile of fullAdder_1b_bench.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nand3.v was successful.
+# Compile of nor2.v was successful.
+# Compile of nor3.v was successful.
+# Compile of not1.v was successful.
+# Compile of rca_4b.v was successful.
+# Compile of rca_16b.v was successful.
+# Compile of rca_16b_bench.v was successful.
+# Compile of xor2.v was successful.
+# Compile of xor3.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.fullAdder_1b_bench
+# End time: 13:36:01 on Feb 15,2019, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 2
+# vsim work.fullAdder_1b_bench 
+# Start time: 13:36:01 on Feb 15,2019
+# Loading work.fullAdder_1b_bench
+# Loading work.clkrst
+# Loading work.fullAdder_1b
+# Loading work.xor2
+# Loading work.nand2
+run -continue
+run -all
+# A: 0, B: 1, Sum: 0
+# A: 3, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 0, Sum: 0
+# A: 2, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 3, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 2, Sum: 1
+# A: 0, B: 1, Sum: 1
+# A: 1, B: 1, Sum: 1
+# A: 3, B: 2, Sum: 1
+# A: 0, B: 2, Sum: 1
+# ERRORCHECK CO error
+# A: 2, B: 3, Sum: 0
+# A: 3, B: 3, Sum: 1
+# A: 2, B: 2, Sum: 1
+# A: 3, B: 3, Sum: 0
+# A: 2, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 2, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 0, B: 1, Sum: 0
+# A: 2, B: 2, Sum: 0
+# A: 0, B: 2, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 1, Sum: 1
+# A: 3, B: 2, Sum: 1
+# A: 1, B: 1, Sum: 1
+# A: 2, B: 0, Sum: 1
+# ERRORCHECK CO error
+# A: 3, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 1, Sum: 0
+# A: 3, B: 1, Sum: 0
+# ERRORCHECK CO error
+# A: 0, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 1, Sum: 0
+# ERRORCHECK CO error
+# A: 2, B: 1, Sum: 0
+# ERRORCHECK CO error
+# ** Note: $finish    : /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v(20)
+#    Time: 3200 ns  Iteration: 0  Instance: /fullAdder_1b_bench
+# 1
+# Break in Module fullAdder_1b_bench at /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v line 20
+restart
+# Closing VCD file "dump.vcd"
+run -continue
+# A: 0, B: 1, Sum: 0
+# A: 3, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 0, Sum: 0
+# A: 2, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 3, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 2, Sum: 1
+# A: 0, B: 1, Sum: 1
+# A: 1, B: 1, Sum: 1
+# A: 3, B: 2, Sum: 1
+# A: 0, B: 2, Sum: 1
+# ERRORCHECK CO error
+# A: 2, B: 3, Sum: 0
+# A: 3, B: 3, Sum: 1
+# A: 2, B: 2, Sum: 1
+# A: 3, B: 3, Sum: 0
+# A: 2, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 2, B: 1, Sum: 1
+# ERRORCHECK CO error
+# A: 0, B: 1, Sum: 0
+# A: 2, B: 2, Sum: 0
+# A: 0, B: 2, Sum: 1
+# ERRORCHECK CO error
+# A: 1, B: 1, Sum: 1
+# A: 3, B: 2, Sum: 1
+# A: 1, B: 1, Sum: 1
+# A: 2, B: 0, Sum: 1
+# ERRORCHECK CO error
+# A: 3, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 0, Sum: 0
+# ERRORCHECK CO error
+# A: 1, B: 1, Sum: 0
+# A: 3, B: 1, Sum: 0
+# ERRORCHECK CO error
+# A: 0, B: 2, Sum: 0
+# ERRORCHECK CO error
+# A: 3, B: 1, Sum: 0
+# ERRORCHECK CO error
+# A: 2, B: 1, Sum: 0
+# ERRORCHECK CO error
+# ** Note: $finish    : /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v(20)
+#    Time: 3200 ns  Iteration: 0  Instance: /fullAdder_1b_bench
+# 1
+# Break in Module fullAdder_1b_bench at /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v line 20
+# Compile of fullAdder_1b_bench.v was successful.
+vsim work.fullAdder_1b_bench
+# End time: 13:37:31 on Feb 15,2019, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0
+# vsim work.fullAdder_1b_bench 
+# Start time: 13:37:31 on Feb 15,2019
+# Loading work.fullAdder_1b_bench
+# Loading work.clkrst
+# Loading work.fullAdder_1b
+# Loading work.xor2
+# Loading work.nand2
+restart
+run -continue
+run -all
+# A: 0, B: 1, C_in, Sum: 10
+# A: 1, B: 1, C_in, Sum: 11
+# A: 1, B: 0, C_in, Sum: 10
+# A: 1, B: 0, C_in, Sum: 10
+# A: 1, B: 0, C_in, Sum: 10
+# A: 0, B: 1, C_in, Sum: 01
+# A: 1, B: 1, C_in, Sum: 00
+# A: 1, B: 0, C_in, Sum: 01
+# A: 0, B: 1, C_in, Sum: 01
+# A: 1, B: 1, C_in, Sum: 11
+# A: 1, B: 0, C_in, Sum: 01
+# A: 0, B: 0, C_in, Sum: 11
+# A: 0, B: 1, C_in, Sum: 10
+# A: 1, B: 1, C_in, Sum: 11
+# A: 0, B: 0, C_in, Sum: 11
+# A: 1, B: 1, C_in, Sum: 00
+# A: 0, B: 0, C_in, Sum: 00
+# A: 0, B: 1, C_in, Sum: 01
+# A: 0, B: 1, C_in, Sum: 10
+# A: 0, B: 0, C_in, Sum: 00
+# A: 0, B: 0, C_in, Sum: 11
+# A: 1, B: 1, C_in, Sum: 11
+# A: 1, B: 0, C_in, Sum: 01
+# A: 1, B: 1, C_in, Sum: 11
+# A: 0, B: 0, C_in, Sum: 11
+# A: 1, B: 0, C_in, Sum: 10
+# A: 1, B: 0, C_in, Sum: 10
+# A: 1, B: 1, C_in, Sum: 00
+# A: 1, B: 1, C_in, Sum: 00
+# A: 0, B: 0, C_in, Sum: 00
+# A: 1, B: 1, C_in, Sum: 00
+# A: 0, B: 1, C_in, Sum: 10
+# ** Note: $finish    : /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v(20)
+#    Time: 3200 ns  Iteration: 0  Instance: /fullAdder_1b_bench
+# 1
+# Break in Module fullAdder_1b_bench at /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v line 20
+# Compile of fullAdder_1b_bench.v was successful.
+vsim work.fullAdder_1b_bench
+# End time: 13:39:05 on Feb 15,2019, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+# vsim work.fullAdder_1b_bench 
+# Start time: 13:39:05 on Feb 15,2019
+# Loading work.fullAdder_1b_bench
+# Loading work.clkrst
+# Loading work.fullAdder_1b
+# Loading work.xor2
+# Loading work.nand2
+restart
+run -all
+# A: 0, B: 1, C_in: 1, Sum: 0
+# A: 1, B: 1, C_in: 1, Sum: 1
+# A: 1, B: 0, C_in: 1, Sum: 0
+# A: 1, B: 0, C_in: 1, Sum: 0
+# A: 1, B: 0, C_in: 1, Sum: 0
+# A: 0, B: 1, C_in: 0, Sum: 1
+# A: 1, B: 1, C_in: 0, Sum: 0
+# A: 1, B: 0, C_in: 0, Sum: 1
+# A: 0, B: 1, C_in: 0, Sum: 1
+# A: 1, B: 1, C_in: 1, Sum: 1
+# A: 1, B: 0, C_in: 0, Sum: 1
+# A: 0, B: 0, C_in: 1, Sum: 1
+# A: 0, B: 1, C_in: 1, Sum: 0
+# A: 1, B: 1, C_in: 1, Sum: 1
+# A: 0, B: 0, C_in: 1, Sum: 1
+# A: 1, B: 1, C_in: 0, Sum: 0
+# A: 0, B: 0, C_in: 0, Sum: 0
+# A: 0, B: 1, C_in: 0, Sum: 1
+# A: 0, B: 1, C_in: 1, Sum: 0
+# A: 0, B: 0, C_in: 0, Sum: 0
+# A: 0, B: 0, C_in: 1, Sum: 1
+# A: 1, B: 1, C_in: 1, Sum: 1
+# A: 1, B: 0, C_in: 0, Sum: 1
+# A: 1, B: 1, C_in: 1, Sum: 1
+# A: 0, B: 0, C_in: 1, Sum: 1
+# A: 1, B: 0, C_in: 1, Sum: 0
+# A: 1, B: 0, C_in: 1, Sum: 0
+# A: 1, B: 1, C_in: 0, Sum: 0
+# A: 1, B: 1, C_in: 0, Sum: 0
+# A: 0, B: 0, C_in: 0, Sum: 0
+# A: 1, B: 1, C_in: 0, Sum: 0
+# A: 0, B: 1, C_in: 1, Sum: 0
+# ** Note: $finish    : /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v(20)
+#    Time: 3200 ns  Iteration: 0  Instance: /fullAdder_1b_bench
+# 1
+# Break in Module fullAdder_1b_bench at /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v line 20
+# Compile of rca_4b.v failed with 1 errors.
+# Compile of rca_16b.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of rca_4b.v was successful.
+# Compile of rca_16b.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of rca_16b.v was successful.
+vsim work.rca_16b_bench
+# End time: 13:51:47 on Feb 15,2019, Elapsed time: 0:12:42
+# Errors: 0, Warnings: 0
+# vsim work.rca_16b_bench 
+# Start time: 13:51:47 on Feb 15,2019
+# Loading work.rca_16b_bench
+# Loading work.clkrst
+# Loading work.rca_16b
+# Loading work.rca_4b
+# Loading work.fullAdder_1b
+# Loading work.xor2
+# Loading work.nand2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'S'. The port definition is at: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_4b.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_16b_bench/DUT/byte1 File: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b.v Line: 20
+restart
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'S'. The port definition is at: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_4b.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_16b_bench/DUT/byte1 File: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b.v Line: 20
+run -all
+# A: 03524, B: 05e81, Sum: 93z6
+# ERRORCHECK Sum error
+# A: 05663, B: 07b0d, Sum: d1z1
+# ERRORCHECK Sum error
+# A: 08465, B: 05212, Sum: d6zX
+# ERRORCHECK Sum error
+# A: 0cd0d, B: 0f176, Sum: bez4
+# ERRORCHECK Sum error
+# A: 057ed, B: 0f78c, Sum: 4fzX
+# ERRORCHECK Sum error
+# A: 024c6, B: 084c5, Sum: a9zX
+# ERRORCHECK Sum error
+# A: 0f7e5, B: 07277, Sum: 6azX
+# ERRORCHECK Sum error
+# A: 0db8f, B: 069f2, Sum: 45zX
+# ERRORCHECK Sum error
+# A: 07ae8, B: 04ec5, Sum: c9zX
+# ERRORCHECK Sum error
+# A: 028bd, B: 0582d, Sum: 80zX
+# ERRORCHECK Sum error
+# A: 06263, B: 0870a, Sum: e9zX
+# ERRORCHECK Sum error
+# A: 02120, B: 045aa, Sum: 66zX
+# ERRORCHECK Sum error
+# A: 03e96, B: 0b813, Sum: f6za
+# ERRORCHECK Sum error
+# A: 0d653, B: 0dd6b, Sum: b3zf
+# ERRORCHECK Sum error
+# A: 04a02, B: 03eae, Sum: 88z1
+# ERRORCHECK Sum error
+# A: 072cf, B: 04923, Sum: bbzX
+# ERRORCHECK Sum error
+# A: 00aca, B: 04c3c, Sum: 57z6
+# ERRORCHECK Sum error
+# A: 0618a, B: 0b341, Sum: 14zX
+# ERRORCHECK Sum error
+# A: 0f378, B: 01289, Sum: 06z2
+# ERRORCHECK Sum error
+# A: 065b6, B: 0f9c6, Sum: 5fzX
+# ERRORCHECK Sum error
+# A: 002bc, B: 0dd2a, Sum: dfzX
+# ERRORCHECK Sum error
+# A: 0be71, B: 04185, Sum: ffz7
+# ERRORCHECK Sum error
+# A: 0603b, B: 0333a, Sum: 93z5
+# ERRORCHECK Sum error
+# A: 04b15, B: 09bf1, Sum: e7zX
+# ERRORCHECK Sum error
+# A: 00762, B: 0fb4c, Sum: 02zX
+# ERRORCHECK Sum error
+# A: 0a18f, B: 0a9f8, Sum: 4bz8
+# ERRORCHECK Sum error
+# A: 0569f, B: 0945c, Sum: eazX
+# ERRORCHECK Sum error
+# A: 03789, B: 03249, Sum: 69zX
+# ERRORCHECK Sum error
+# A: 0c0d7, B: 0fc51, Sum: bdz8
+# ERRORCHECK Sum error
+# A: 07f0c, B: 0cec2, Sum: 4dze
+# ERRORCHECK Sum error
+# A: 05a77, B: 0ed3d, Sum: 47zX
+# ERRORCHECK Sum error
+# A: 0007e, B: 0816d, Sum: 81zc
+# ERRORCHECK Sum error
+# ** Note: $finish    : /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench.v(20)
+#    Time: 3200 ns  Iteration: 0  Instance: /rca_16b_bench
+# 1
+# Break in Module rca_16b_bench at /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench.v line 20
+# Compile of rca_16b_bench_1_v was successful.
+vsim work.rca_16b_bench_1
+# End time: 13:55:26 on Feb 15,2019, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0
+# vsim work.rca_16b_bench_1 
+# Start time: 13:55:26 on Feb 15,2019
+# Loading work.rca_16b_bench_1
+# Loading work.clkrst
+# Loading work.rca_16b
+# Loading work.rca_4b
+# Loading work.fullAdder_1b
+# Loading work.xor2
+# Loading work.nand2
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'S'. The port definition is at: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_4b.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_16b_bench_1/DUT/byte1 File: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b.v Line: 20
+restart
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'S'. The port definition is at: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_4b.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /rca_16b_bench_1/DUT/byte1 File: /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b.v Line: 20
+run
+# A: 03524, B: 05e81, C_in: 1, Cout: 0, Sum: 93z6
+# ERRORCHECK Sum error
+# Compile of rca_16b.v was successful.
+vsim work.rca_16b_bench
+# End time: 13:57:01 on Feb 15,2019, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0
+# vsim work.rca_16b_bench 
+# Start time: 13:57:01 on Feb 15,2019
+# Loading work.rca_16b_bench
+# Loading work.clkrst
+# Loading work.rca_16b
+# Loading work.rca_4b
+# Loading work.fullAdder_1b
+# Loading work.xor2
+# Loading work.nand2
+restart
+run -all
+# A: 03524, B: 05e81, Sum: 93a6
+# A: 05663, B: 07b0d, Sum: d171
+# A: 08465, B: 05212, Sum: d678
+# A: 0cd0d, B: 0f176, Sum: be84
+# A: 057ed, B: 0f78c, Sum: 4f7a
+# A: 024c6, B: 084c5, Sum: a98b
+# A: 0f7e5, B: 07277, Sum: 6a5c
+# A: 0db8f, B: 069f2, Sum: 4581
+# A: 07ae8, B: 04ec5, Sum: c9ad
+# A: 028bd, B: 0582d, Sum: 80eb
+# A: 06263, B: 0870a, Sum: e96d
+# A: 02120, B: 045aa, Sum: 66cb
+# A: 03e96, B: 0b813, Sum: f6aa
+# A: 0d653, B: 0dd6b, Sum: b3bf
+# A: 04a02, B: 03eae, Sum: 88b1
+# A: 072cf, B: 04923, Sum: bbf2
+# A: 00aca, B: 04c3c, Sum: 5706
+# A: 0618a, B: 0b341, Sum: 14cb
+# A: 0f378, B: 01289, Sum: 0602
+# A: 065b6, B: 0f9c6, Sum: 5f7c
+# A: 002bc, B: 0dd2a, Sum: dfe7
+# A: 0be71, B: 04185, Sum: fff7
+# A: 0603b, B: 0333a, Sum: 9375
+# A: 04b15, B: 09bf1, Sum: e707
+# A: 00762, B: 0fb4c, Sum: 02af
+# A: 0a18f, B: 0a9f8, Sum: 4b88
+# A: 0569f, B: 0945c, Sum: eafc
+# A: 03789, B: 03249, Sum: 69d2
+# A: 0c0d7, B: 0fc51, Sum: bd28
+# A: 07f0c, B: 0cec2, Sum: 4dce
+# A: 05a77, B: 0ed3d, Sum: 47b4
+# A: 0007e, B: 0816d, Sum: 81ec
+# ** Note: $finish    : /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench.v(20)
+#    Time: 3200 ns  Iteration: 0  Instance: /rca_16b_bench
+# 1
+# Break in Module rca_16b_bench at /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench.v line 20
+# End time: 13:57:22 on Feb 15,2019, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

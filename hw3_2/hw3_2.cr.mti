@@ -1,0 +1,99 @@
+/afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module rca_16b
+
+Top level modules:
+	rca_16b
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nor2.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nor2.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module nor2
+
+Top level modules:
+	nor2
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nor3.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nor3.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module nor3
+
+Top level modules:
+	nor3
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/not1.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/not1.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_4b.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_4b.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module rca_4b
+
+Top level modules:
+	rca_4b
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module fullAdder_1b
+
+Top level modules:
+	fullAdder_1b
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module rca_16b_bench
+
+Top level modules:
+	rca_16b_bench
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench_1_v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/rca_16b_bench_1_v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module rca_16b_bench_1
+
+Top level modules:
+	rca_16b_bench_1
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/clkrst.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/clkrst.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nand2.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nand2.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module nand2
+
+Top level modules:
+	nand2
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/xor2.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/xor2.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module xor2
+
+Top level modules:
+	xor2
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module fullAdder_1b_bench
+
+Top level modules:
+	fullAdder_1b_bench
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/xor3.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/xor3.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module xor3
+
+Top level modules:
+	xor3
+
+} {} {}} /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nand3.v {1 {vlog -work work -stats=none /afs/cs.wisc.edu/u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/nand3.v
+Model Technology ModelSim DE vlog 10.7c Compiler 2018.08 Aug 17 2018
+-- Compiling module nand3
+
+Top level modules:
+	nand3
+
+} {} {}}

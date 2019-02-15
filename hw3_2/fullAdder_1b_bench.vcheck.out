@@ -1,0 +1,11 @@
+Line 16: Bad keyword initial
+Line 17: begin without always/case
+Line 23: Bad keyword posedge
+Line 23: Always without case(x)
+Line 29: Bad keyword negedge
+Line 33: Bad keyword if
+Line 33: Bad keyword !==
+Line 34: Bad keyword if
+Line 34: Bad keyword !==
+Line 29: Always without case(x)
+End of file /u/z/e/zeming/private/ece552/hw3-zli653/hw3_2/fullAdder_1b_bench.v. Hash = -1044754903
